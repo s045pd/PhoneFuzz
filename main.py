@@ -85,7 +85,7 @@ def ui():
     province = st.text_input("省份（可选）").strip()
     city = st.text_input("城市（可选）").strip()
     postal_code = st.text_input("邮编（可选）").strip()
-    phone_type = st.selectbox("运营商（可选）", pd.Series(operator))
+    phone_type = st.selectbox("运营商（可选）", pd.Series([None]+operator))
     if st.button("提交"):
         # 运行生成器，生成数据
         data = search(
