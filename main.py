@@ -81,12 +81,12 @@ def ui():
     # 创建输入框和提交按钮
     st.title("PhoneFuzz")
     phone_number = st.text_input(
-        ":iphone:号码", placeholder="123****1234、123**123456"
+        ":iphone:号码 :", placeholder="123****1234、123**123456"
     ).strip()
-    province = st.text_input(":office:省份", placeholder="北京、上海").strip()
-    city = st.text_input(":house_buildings:城市").strip()
-    postal_code = st.text_input(":postbox:邮编").strip()
-    phone_type = st.selectbox(":department_store:运营商", pd.Series([None] + operator))
+    province = st.text_input(":office: 省份:", placeholder="北京、上海").strip()
+    city = st.text_input(":house_buildings: 城市:").strip()
+    postal_code = st.text_input(":postbox: 邮编:").strip()
+    phone_type = st.selectbox(":department_store: 运营商:", pd.Series([None] + operator))
     if st.button("提交"):
         # 运行生成器，生成数据
         data = search(
