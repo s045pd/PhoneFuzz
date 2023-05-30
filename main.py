@@ -30,7 +30,7 @@ def phone_gen(template: str) -> Generator:
         yield number
 
 
-def filter_with_location(number: str, config: dict) -> None | dict:
+def filter_with_location(number: str, config: dict) -> None or dict:
     """
     查询手机号，根据配置过滤
 
