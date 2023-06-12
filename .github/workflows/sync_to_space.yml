@@ -38,6 +38,8 @@ jobs:
           cd "$CLONE_DIR"
           echo "Files that will be pushed:"
           ls -la
+          rm README.md 
+          mv .github/workflows/HuggingFace.md README.md
           echo "git add:"
           git add -A
           echo "git status:"
