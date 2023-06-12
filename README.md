@@ -25,7 +25,7 @@ pinned: false
 
 > 部署好的 streamlit 服务
 
-[https://s045pd-phonefuzz-main-zewqvo.streamlit.app/](https://s045pd-phonefuzz-main-zewqvo.streamlit.app/)
+[https://huggingface.co/spaces/s045pd/PhoneFuzz](https://huggingface.co/spaces/s045pd/PhoneFuzz)
 
 ## 🔧 环境安装
 
