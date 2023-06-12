@@ -12,6 +12,16 @@
 
 <img width="840" alt="image" src="https://github.com/s045pd/PhoneFuzz/assets/22721729/cc172904-7147-4cfe-ab93-5f7475f85e8d">
 
+---
+title: PhoneFuzz
+emoji: 🕵️
+colorFrom: pink
+colorTo: green
+sdk: streamlit
+sdk_version: 1.22.0
+app_file: main.py
+pinned: false
+---
 
 
 ## 🧑‍🦼 懒人使用
